@@ -1,0 +1,15 @@
+# Do not commit datasets or raw/sensitive data to this repo.
+# This repo holds documentation only (rules, prompts, schemas, decisions, eval specs).
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.log
+data/
+datasets/
+synthetic-data/
+campaign-exports/
+*.env
+.env
+*.key
+credentials*
